@@ -1,0 +1,47 @@
+body
+{
+    width: 100%;
+    overflow-x: hidden;
+    
+
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Heebo' , sans-serif;
+    color:black;
+}
+
+.gbor {
+    border: 3px solid gold;
+}
+
+.white {
+    color: white;
+}
+
+#heroimg1 {
+    position: absolute;
+    height: 100vh;
+    left:0;
+}
+
+#friends {
+    position: absolute;
+    font-weight: 800;
+    font-size: 8vw;
+    top: 35%;
+    left:19.5%;
+}
+
+#forlife {
+    position: absolute;
+    font-weight: 800;
+    font-size: 8vw;
+    top: 50%;
+    left:35%;
+}
