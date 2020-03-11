@@ -55,12 +55,13 @@ h1 {
 
 #heroimgcontainer{
     height: 100%;
+    position: relative;
 }
 
 #adoptbtn h1{
     font-weight: 800;
     margin: 25px;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 #adoptbtn {
@@ -73,6 +74,33 @@ h1 {
 
 #welcometxt {
     position: absolute;
-    top: 80%;
-    left: 40%;
+    top: 70%;
+    left: 48%;
+    width: 50%;
+    font-size: 16px;
 }
+
+@media (max-width: 760px) {
+    #herotxt1 {
+        left: 29%;
+        font-size: 12vw;
+    }
+
+    #herotxt2 {
+        top:50%;
+        left: 47.3%;
+        font-size: 12vw;
+    }
+
+    #adoptbtn {
+        max-width: 250px;
+        height: 90%;
+    }
+
+    #adoptbtn h1{
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+
+} 
