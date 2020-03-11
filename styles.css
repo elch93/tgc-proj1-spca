@@ -95,7 +95,13 @@ h1 {
 #navcontainer a {
     font-family: 'Heebo', sans-serif;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+
+#navcontainer a:hover {
+    /* border: 3px black solid; */
+    background-color: rgba(255,215,0, 0.7)
 }
 
 .navbar-toggler {
@@ -106,7 +112,7 @@ h1 {
     margin-left: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     #herotxt1 {
         left: 29%;
         font-size: 12vw;
