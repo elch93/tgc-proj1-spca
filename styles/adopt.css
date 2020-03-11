@@ -1,0 +1,54 @@
+body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Heebo' , sans-serif;
+    color:black;
+}
+
+
+/* navbar */
+#navcontainer{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 64.5%;
+    right: 0;
+    
+}
+
+#navcontainer a {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+
+#navcontainer a:hover {
+    /* border: 3px black solid; */
+    background-color: rgba(255,215,0, 0.7)
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+#navbarTogglerDemo02 li {
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    
+    #navcontainer{
+        width: 52.8%;
+    }
+
+} 

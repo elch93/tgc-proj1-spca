@@ -82,7 +82,7 @@ h1 {
     width: 60%;
     font-size: 1.8vw;
 }
-
+/* navbar */
 #navcontainer{
     position: absolute;
     z-index: 1;
@@ -112,7 +112,7 @@ h1 {
     margin-left: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
     #herotxt1 {
         left: 29%;
         font-size: 12vw;
