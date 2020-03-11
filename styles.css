@@ -32,14 +32,15 @@ h1 {
 }
 
 #heroimg {
-    width: 47%;
+    width: 47.2%;
+    
     
 }
     
 #herotxt1 {
     position: absolute;
-    bottom: 43%;
-    left:31.3%;
+    bottom: 45%;
+    left:31.5%;
     font-size: 7vw;
     font-weight: 800;
 }
@@ -47,7 +48,7 @@ h1 {
     
 #herotxt2 {
     position: absolute;
-    bottom: 30%;
+    bottom: 33%;
     left:47%;
     font-size: 7vw;
     font-weight: 800;
@@ -60,8 +61,9 @@ h1 {
 
 #adoptbtn h1{
     font-weight: 800;
-    margin: 25px;
+    padding: 20px;
     font-size: 2.5vw;
+    
 }
 
 #adoptbtn {
@@ -69,18 +71,42 @@ h1 {
     box-shadow: orange 20px 20px;
     border-radius: 20px;
     border: none;
-    width: 68%;
+    
+   
 }
 
 #welcometxt {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 48%;
-    width: 50%;
-    font-size: 16px;
+    width: 60%;
+    font-size: 1.8vw;
 }
 
-@media (max-width: 760px) {
+#navcontainer{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 64.5%;
+    right: 0;
+    
+}
+
+#navcontainer a {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+#navbarTogglerDemo02 li {
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
     #herotxt1 {
         left: 29%;
         font-size: 12vw;
@@ -102,5 +128,8 @@ h1 {
         font-size: 25px;
     }
 
+    #navcontainer{
+        width: 52.8%;
+    }
 
 } 
