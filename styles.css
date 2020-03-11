@@ -56,3 +56,23 @@ h1 {
 #heroimgcontainer{
     height: 100%;
 }
+
+#adoptbtn h1{
+    font-weight: 800;
+    margin: 25px;
+    font-size: 3vw;
+}
+
+#adoptbtn {
+    background-color: gold;
+    box-shadow: orange 20px 20px;
+    border-radius: 20px;
+    border: none;
+    width: 68%;
+}
+
+#welcometxt {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
