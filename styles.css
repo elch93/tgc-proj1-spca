@@ -16,32 +16,43 @@ h1 {
     color:black;
 }
 
+/* =====welcome pg===== */
 .gbor {
-    border: 3px solid gold;
+    border: 5px solid gold;
+}
+
+.hundred {
+    height: 100vh;
+    overflow-y: hidden;
+    width: 100vh;
 }
 
 .white {
     color: white;
 }
 
-#heroimg1 {
+#heroimg {
+    width: 47%;
+    
+}
+    
+#herotxt1 {
     position: absolute;
-    height: 100vh;
-    left:0;
+    bottom: 43%;
+    left:31.3%;
+    font-size: 7vw;
+    font-weight: 800;
 }
 
-#friends {
+    
+#herotxt2 {
     position: absolute;
+    bottom: 30%;
+    left:47%;
+    font-size: 7vw;
     font-weight: 800;
-    font-size: 8vw;
-    top: 35%;
-    left:19.5%;
 }
 
-#forlife {
-    position: absolute;
-    font-weight: 800;
-    font-size: 8vw;
-    top: 50%;
-    left:35%;
+#heroimgcontainer{
+    height: 100%;
 }
