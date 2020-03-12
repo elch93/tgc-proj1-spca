@@ -68,7 +68,7 @@ h1 {
 
 #adoptbtn {
     background-color: gold;
-    box-shadow: 10px 10px  orange,
+    box-shadow: 0px 10px  orange,
   -5px -5px 5px rgba(255,255,255,0.5);
     border: 1px solid rgba(255,255,255, 0.2);
     border-radius: 20px;

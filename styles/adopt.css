@@ -14,15 +14,43 @@ h1 {
     color:black;
 }
 
+.gbor {
+    border: 5px solid gold;
+}
+
+.hundred {
+    height: 100vh;
+    overflow-y: hidden;
+    width: 100vh;
+}
+
+.white {
+    color: white;
+}
+
+/* adoption pg */
+
+.nmcard {
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    border: 0px black solid;
+    box-shadow: 3px 7px 7px 0px rgba(0,0,0, 0.2),
+    -3px 0px 5px 1px rgba(0,0,0, 0.2);
+}
+
+
+
+
+
 
 /* navbar */
 #navcontainer{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     background-color: white;
-    width: 64.5%;
     right: 0;
-    
+    width: 100%;
 }
 
 #navcontainer a {
@@ -48,7 +76,7 @@ h1 {
 @media (max-width: 767.5px) {
     
     #navcontainer{
-        width: 52.8%;
+        width: 100%;
     }
 
 } 
