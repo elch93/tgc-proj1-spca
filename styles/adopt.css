@@ -29,6 +29,36 @@ p, h1 {
     color: white;
 }
 
+/* welcome pg */
+#heroimg {
+    width: 35%;
+
+}
+    
+#herotxt1 {
+    position: absolute;
+    bottom: 45%;
+    left:38%;
+    font-size: 7vw;
+    font-weight: 800;
+}
+
+
+#heroimgcontainer{
+    height: 500px;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#welcometxt {
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    width: 50%;
+    font-size: 1.5vw;
+}
+
+
 /* adoption pg */
 
 .nmcard {
@@ -102,11 +132,65 @@ p, h1 {
     margin-left: auto;
 }
 
+/* for smartphones */
 @media (max-width: 767.5px) {
     
     #navcontainer{
         width: 100%;
     }
 
+    #heroimg {
+        height: 100%;
+        width: 100%;
+    }
+        
+    #herotxt1 {
+        position: static;
+        padding: 15px 0 0 15px;
+        font-size: 7vw;
+        font-weight: 800;
+    }
+    
+    #heroimgcontainer{
+        height: 100%;
+    }
+    
+
+} 
+
+/* for ipads */
+@media (min-width: 767.5px) and (max-width: 959.5px) {
+    
+    #navcontainer{
+        width: 100%;
+    }
+
+
+    #heroimg {
+        height: 100%;
+        width: 50%;
+    }
+        
+    #herotxt1 {
+        position: absolute;
+        bottom:50%;
+        left:55%;
+        font-size: 7vw;
+        font-weight: 800;
+    }
+    
+    #heroimgcontainer{
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #welcometxt {
+        position: absolute;
+        top: 55%;
+        left: 55%;
+        width: 40%;
+        font-size: 1.8vw;
+    }
 
 } 
