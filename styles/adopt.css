@@ -36,7 +36,7 @@ p, h1 {
     
 #herotxt1 {
     position: absolute;
-    bottom: 45%;
+    bottom: 55%;
     left:45%;
     font-size: 7vw;
     font-weight: 800;
@@ -52,7 +52,7 @@ p, h1 {
 
 #welcometxt {
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 45%;
     width: 50%;
     font-size: 1.5vw;
@@ -158,7 +158,7 @@ p, h1 {
 } 
 
 /* for ipads */
-@media (min-width: 767.5px) and (max-width: 959.5px) {
+@media (min-width: 767.5px) and (max-width: 991.5px) {
     
     #navcontainer{
         width: 100%;

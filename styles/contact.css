@@ -82,7 +82,7 @@ form {
     #keyboard {
         position: absolute;
         opacity: 0.3;
-        height: 250px;
+        width: 100%;
     }
    
 }
