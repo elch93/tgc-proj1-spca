@@ -50,21 +50,25 @@
                 </div>
                 <div class="row m-3 justify-content-center">
                     <form class="pt-5">
-                        First Name: <input type="text" placeholder="Enter your first name">
+                        <label for="fname">First Name:</label> 
+                        <input type="text" id="fname" placeholder="Enter your first name">
                         <br><br>
-                        Last Name: <input type="text" placeholder="Enter your last name">
+                        <label for="lname">Last Name: </label> 
+                        <input type="text" id="lname" placeholder="Enter your last name">
                         <br><br>
-                        Email: <input type="email" placeholder="Enter your email address">
+                        <label for="email">Email: </label> 
+                        <input type="email" id="email" placeholder="Enter your email address">
                         <br><br>
                         Select Type of Enquiry:
                         <select name="enquiry" size="1">
-                            <option>Volunteer With Us</option>
-                            <option>General Enquiry</option>
-                            <option>Donation</option>
-                            <option>Complaint</option>
+                            <option value="volunteer">Volunteer With Us</option>
+                            <option value="enquiry">General Enquiry</option>
+                            <option value="donate">Donation</option>
+                            <option value="complaint">Complaint</option>
                         </select>
                         <br><br>
                         <textarea name="message" rows="3" placeholder="Enter your enquiry"></textarea>
+                        <input type="submit" value="Submit">
                     </form>
                 </div>    
             </div>
