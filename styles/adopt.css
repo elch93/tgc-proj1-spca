@@ -66,10 +66,28 @@ p, h1 {
     width: 300px;
     margin: 50px 0;
     border-radius: 30px;
-    border: 0px black solid;
     box-shadow: 3px 7px 7px 0px rgba(0,0,0, 0.2),
     -1px 0px 5px 1px rgba(0,0,0, 0.2);
-    background-image:  linear-gradient(45deg, #293542 0%, rgba(0,0,0,0.8) 100%); 
+    background-image:  linear-gradient(45deg, #293542 0%, rgba(0,0,0,0.8) 100%);
+     
+}
+
+.nmcard:hover {
+    animation-name: hoverscale;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes hoverscale {
+    0% {transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+
+
 }
 
 .nmtop {
@@ -121,8 +139,8 @@ p, h1 {
 }
 
 #navcontainer a:hover {
-    /* border: 3px black solid; */
-    background-color: rgba(255,215,0, 0.7)
+    border-right: 5px orange solid;
+    background-color: gold;
 }
 
 .navbar-toggler {

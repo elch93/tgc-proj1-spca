@@ -44,8 +44,8 @@ p, h1 {
 }
 
 #navcontainer a:hover {
-    /* border: 3px black solid; */
-    background-color: rgba(255,215,0, 0.7)
+    border-right: 5px orange solid;
+    background-color: gold;
 }
 
 .navbar-toggler {
