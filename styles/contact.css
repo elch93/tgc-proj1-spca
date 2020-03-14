@@ -45,7 +45,7 @@ p, h1 {
 }
 
 #navcontainer a:hover {
-    border-right: 5px orange solid;
+    border-right: orange 5px solid;
     background-color: gold;
     transition: 0.5s;
 }

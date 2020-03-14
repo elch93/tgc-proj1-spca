@@ -123,6 +123,92 @@ h1 {
     margin-left: auto;
 }
 
+
+/* adoption spotlight */
+.nmcard {
+    height: 500px;
+    width: 300px;
+    margin: 50px 0;
+    border-radius: 30px;
+    box-shadow: 3px 7px 7px 0px rgba(0,0,0, 0.2),
+    -1px 0px 5px 1px rgba(0,0,0, 0.2);
+    background-image:  linear-gradient(45deg, #293542 0%, rgba(0,0,0,0.8) 100%);
+    animation-name: hoverout;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1; 
+    
+}
+
+.nmcard:hover {
+    animation-name: hoverscale;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+#spotlight {
+    text-align: center;
+    font-weight: 600;
+}
+
+@keyframes hoverscale {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+
+
+}
+
+@keyframes hoverout{
+    0% {
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+.nmtop {
+    height: 250px;
+    
+}
+
+.nmtop img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.nmbtm {
+    height: 200px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.nmbtm ul {
+    list-style-type: none;
+}
+
+.nmname {
+    height: 65px;
+    width: 150px;
+    background-color: gold;
+    position: relative;
+    bottom: 5%;
+
+}
+
+.nmname h1 {
+    font-weight: 800;
+}
+
+
+/* for small devices */
 @media (max-width: 767.5px) {
     #herotxt1 {
         left: 29%;
