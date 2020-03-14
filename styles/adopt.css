@@ -151,15 +151,14 @@ p, h1 {
     font-weight: 800;
     font-size: 22px;
     padding: 5px 15px;
-    transition: 1s;
-    
+    transition: linear 0.5s;
+    transform: translateY(3px);
 }
 
 #navcontainer a:hover {
-    border-right: 5px orange solid;
-    border-left: 5px orange solid;
     background-color: gold;
-    transition: 0.5s;
+    transform: translateY(-3px);
+    transition: linear 0.5s;
 }
 
 .navbar-toggler {
