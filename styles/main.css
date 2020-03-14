@@ -106,11 +106,13 @@ h1 {
     font-weight: 800;
     font-size: 22px;
     padding: 5px 15px;
+    transition: 1s;
 }
 
 #navcontainer a:hover {
     border-right: 5px orange solid;
     background-color: gold;
+    transition: 0.5s;
 }
 
 .navbar-toggler {
