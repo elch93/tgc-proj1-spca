@@ -293,6 +293,8 @@ form textarea {
     height: 80vh;
     width: 300px;
     transition: 0.5s ease-in-out;
+    background-color: black;
+    overflow: hidden;
 }
 
 
@@ -301,8 +303,25 @@ form textarea {
     transition: 0.5s ease-in-out;
 }
 
-#storiescontainer1 {
-    background-image: url();
+#storiescontainer1 img:hover, #storiescontainer2 img:hover,#storiescontainer3 img:hover {
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+#storiescontainer1 img, #storiescontainer2 img,#storiescontainer3 img {
+    position: relative;
+    right:20%;
+    bottom: 30%;
+    transition: 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+#storiescontainer1 h1, #storiescontainer2 h1,#storiescontainer3 h1 {
+    position: absolute;
+    top:50%;
+    color: white;
+    font-weight: 800;
+    padding-left: 30px;
 }
 
 
