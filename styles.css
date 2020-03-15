@@ -27,6 +27,10 @@ h1 {
     width: 100vh;
 }
 
+.thirty {
+    height: 50vh;
+}
+
 .gold {
     background-color: gold;
 }
@@ -318,8 +322,6 @@ form textarea {
 }
 
 
-
-/* h1 missing fix later */
 .storytile h1 {
     position: relative; /*required for z-index usage */
     top:80%;
@@ -332,8 +334,63 @@ form textarea {
     z-index: 2;
 }
 
+/* footer */
+footer {
+    background-color: gold;
+}
 
+footer form {
+    background-color: gold;
+    box-shadow: 10px 10px gold;
+    border-radius: 15px;
+    width: 3800px;
+    height: 10px;
+    margin-bottom: 50px;
+    padding:0;
+    
+}
 
+footer input {
+    width:200px;
+    margin-right: auto;
+}
+
+footer button {
+    border-radius: 5px;
+    background-color: gold;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    width: 140px;
+    padding:0px 10px;
+    border: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-left:10px;
+    transition: ease-in-out 0.5s;
+}
+
+footer button:hover {
+    box-shadow: 0px 15px 0 2px orange;
+    transition: ease-in-out 0.5s;
+    transform: translateY(-10px);
+}
+
+footer i, footer p {
+    color: color;
+    font-size: 30px;;
+}
+
+footer i {
+    margin-right: 20px;
+    transition: ease-in-out 0.5s;
+    padding: 20px;
+}
+
+footer i:hover {
+    box-shadow: 0px 15px 0 2px orange;
+    transition: ease-in-out 0.5s;
+    transform: translateY(-10px);
+}
 
 /* for med size */
 
