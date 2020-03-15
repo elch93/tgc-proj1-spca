@@ -339,11 +339,21 @@ footer {
     background-color: gold;
 }
 
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color:black;
+}
+
 footer form {
     background-color: gold;
     box-shadow: 10px 10px gold;
     border-radius: 15px;
-    width: 3800px;
+    width: 380px;
     height: 10px;
     margin-bottom: 50px;
     padding:0;
@@ -436,6 +446,25 @@ footer i:hover {
         position: absolute;
         opacity: 0.3;
         width: 100%;
+    }
+
+    footer form {
+        width: 350px;
+        margin: -10px -10px 30px 0;
+    }
+
+    footer button {
+        width: 100px;
+    }
+
+    footer button {
+        margin: 10px 0 0 -10px;
+    }
+
+    footer i {
+        margin: 30px auto 0 auto;
+        padding:10px auto;
+        font-size: 22px;
     }
    
 }
