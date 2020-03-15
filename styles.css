@@ -289,7 +289,7 @@ form textarea {
 
 /* stories */
 
-#storiescontainer1, #storiescontainer2, #storiescontainer3  {
+.storytile  {
     height: 80vh;
     width: 300px;
     transition: 0.5s ease-in-out;
@@ -298,31 +298,39 @@ form textarea {
 }
 
 
-#storiescontainer1:hover, #storiescontainer2:hover, #storiescontainer3:hover {
+.storytile:hover {
     width: 500px;
     transition: 0.5s ease-in-out;
 }
 
-#storiescontainer1 img:hover, #storiescontainer2 img:hover,#storiescontainer3 img:hover {
+.storytile img:hover {
     transition: 0.5s ease-in-out;
     opacity: 0.8;
+    
 }
 
-#storiescontainer1 img, #storiescontainer2 img,#storiescontainer3 img {
+.storytile img {
     position: relative;
     right:20%;
-    bottom: 30%;
+    bottom: 50%;
     transition: 0.5s ease-in-out;
     opacity: 0.5;
 }
 
-#storiescontainer1 h1, #storiescontainer2 h1,#storiescontainer3 h1 {
-    position: absolute;
+
+
+/* h1 missing fix later */
+.storytile h1 {
+    position: relative; /*required for z-index usage */
     top:50%;
+    left:50%;
+    transform: translateX(-50%);
     color: white;
     font-weight: 800;
     padding-left: 30px;
+    z-index: 2;
 }
+
 
 
 
