@@ -179,33 +179,35 @@ p ,h1 ,h2 {
 }
 
 /* adopt pg */
-
-#heroimgad {
-    width: 40%;
+/* 
+#heroimgcontainerad img{
+    height: auto;
+    width: 800px;
 }
     
-#herotxt1ad {
+#heroimgcontainerad h1 {
     position: absolute;
     bottom: 55%;
-    left:45%;
-    font-size: 7vw;
+    left:55%;
+    font-size: 80px;
     font-weight: 800;
     border-bottom: 15px solid gold;
 }
 
 #heroimgcontainerad{
     height: 550px;
-    position: relative;
-    overflow-y: hidden;
+    width: 50%;
+    overflow: hidden;
 }
 
 #welcometxtad {
     position: absolute;
     top: 55%;
-    left: 45%;
-    width: 50%;
-    font-size: 1.5vw;
-}
+    left: 55%;
+    width: 450px;
+    text-align: justify;
+    font-size: 20px;
+} */
 
 
 /* adoption cards */
@@ -340,25 +342,37 @@ form textarea {
 }
 
 
-.storytile:hover {
-    width: 500px;
-    transition: 0.5s ease-in-out;
-}
-
-
-.storytile img:hover {
-    transition: 0.5s ease-in-out;
-    opacity: 0.8;
-    
-}
-
 .storytile img {
     position: relative;
-    right:20%;
+    right:48%;
     bottom: 50%;
     transition: 0.5s ease-in-out;
     opacity: 0.5;
 }
+
+
+@media (min-width: 1149.5px) {
+    .storytile:hover {
+        width: 500px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    
+    .storytile img:hover {
+        transition: 0.5s ease-in-out;
+        opacity: 0.8;
+        
+    }
+
+    .storytile img {
+        position: relative;
+        right:20%;
+        bottom: 50%;
+        transition: 0.5s ease-in-out;
+        opacity: 0.5;
+    }
+}
+
 
 
 .storytile h1 {
@@ -442,42 +456,7 @@ footer i:hover {
     transform: translateY(-10px);
 }
 
-/* for med size */
 
-@media (min-width: 767.5px) and (max-width: 991.5px) {
-    
-    #navcontainer{
-        width: 100%;
-    }
-
-    #heroimgad {
-        height: 100%;
-        width: auto;
-    }
-        
-    #herotxt1ad {
-        position: absolute;
-        bottom:50%;
-        left:400px;
-        font-size: 7vw;
-        font-weight: 800;
-    }
-    
-    #heroimgcontainerad{
-        height: 400px;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    #welcometxtad {
-        position: absolute;
-        top: 55%;
-        left: 400px;
-        width: 40%;
-        font-size: 1.8vw;
-    }
-
-} 
 
 /* for small devices */
 @media (max-width: 991.5px) {
@@ -511,17 +490,6 @@ footer i:hover {
 
 
 @media (max-width: 767.5px) {
-    #herotxt1 {
-        left: 29%;
-        font-size: 12vw;
-    }
-
-    #herotxt2 {
-        top:50%;
-        left: 47.3%;
-        font-size: 12vw;
-    }
-
     #adoptbtn {
         max-width: 250px;
         height: 90%;
@@ -537,7 +505,7 @@ footer i:hover {
         width: 100%;
     }
 
-    #heroimgad {
+    /* #heroimgad {
         display: none;
     }
         
@@ -550,6 +518,6 @@ footer i:hover {
     
     #heroimgcontainerad{
         height: 100%;
-    }
+    } */
 
 } 
