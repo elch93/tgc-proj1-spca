@@ -134,14 +134,15 @@ h1 {
     transition-delay: 0.03s;
     
 }
-/* 
-#welcometxt {
+
+#welcometxt p {
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
     position: absolute;
-    top: 65%;
-    left: 48%;
-    width: 60%;
-    font-size: 1.8vw;
-} */
+    top:20%;
+    
+}
 
 #spotlight {
     text-align: center;
