@@ -50,6 +50,8 @@ h1 {
 #navcontainer{
     background-color: white;
     width: 100%;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    z-index: 2;
 }
 
 #navcontainer a {
@@ -83,32 +85,41 @@ h1 {
 #heroimgcontainer {
     overflow: hidden;
     height: 90vh;
+    background-image: url(images/friends.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-#heroimg {
-    width: 500px;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    bottom:30%;
-}
-
-#herotitle {
-    position: absolute;
-    font-size: 300px;
+#herotitle h1 {
+    font-size: 150px;
     font-weight: 800;
-    left:50%;
-    transform: translateX(-50%);
-    bottom:-50px;
-    letter-spacing: 50px;
+    text-align: center;
+    color:black;
+    text-shadow: 0px 5px white, 0px 10px black, 0px 15px 15px  orange;
+    /* oreo font effect */
 }
 
+#herotitle h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+#herotitle p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0px 40px;
+}
 
 #adoptbtn h1{
     font-weight: 800;
     padding: 20px;
     font-size: 2.5vw;
+    text-shadow: none;
 }
 
 #adoptbtn {
@@ -117,13 +128,14 @@ h1 {
     border-radius: 20px;
     transition: linear 0.5s;
     position: relative;
-    top:60%;
+    top:5%;
     left:50%;
     transform: translateX(-50%);
 }
 
 #adoptbtn:hover {
-    box-shadow: 0px 10px  orange,
+    top:2%;
+    box-shadow: 0px 20px  orange,
   -5px -5px 5px rgba(255,255,255,0.5);
     transition: linear 0.5s;
 }
@@ -254,6 +266,7 @@ h1 {
 
 .nmname h1 {
     font-weight: 800;
+    
 }
 
 /* heroimg & form */
