@@ -1,8 +1,6 @@
-# Your Project's Name
+# SPCA - Potential Website Revamp
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+This project looks to revamp Singapore's SPCA(Society for the Prevention of Cruelty to Animals) website, using only HTML,CSS and Bootstrap. The current website is mobile-unfriendly, cluttered with content and information, which might put off potential volunteers, adopters and partners. 
  
 ## UX
  
@@ -26,7 +24,9 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- [] More stories and individual story content pages
+- [] Shopping functions, the ability to recognize user inputs such as search, add to cart, make payment, track orders. Filtering available shop items can also be another function to consider.
+- [] For SPCA itself: Potential educational podcasts can be released on Spotify and Youtube to spread awareness about animals and the organization. Promotional content or news can be shown on actual Facebook/Instagram/Twitter accounts.
 
 ## Technologies Used
 
@@ -78,4 +78,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the local SPCA website.
