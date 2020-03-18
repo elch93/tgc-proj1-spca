@@ -265,6 +265,10 @@ p ,h1 ,h2 {
 }
 
 /* heroimg & form */
+#contactus{
+    height: 100vh;
+    overflow: hidden;
+}
 
 #keyboard {
     overflow: hidden;
@@ -317,7 +321,8 @@ p ,h1 ,h2 {
 
 /* stories */
 #stories {
-    height: 100vh;
+    height: 100%;
+    margin: 50px 0px;
 }
 
 .storytile  {
