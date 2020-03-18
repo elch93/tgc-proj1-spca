@@ -303,7 +303,7 @@ p ,h1 ,h2 {
     text-align: center;
 }
 
-form {
+#cform {
     background-color: gold;
     border-radius: 15px;
     margin: 30px 0px;
@@ -312,17 +312,17 @@ form {
     transition: 0.5s ease-in-out;
 }
 
-form:hover {
+#cform:hover {
     box-shadow: 10px 10px orange;
     transition: 0.5s ease-in-out;
     transform: translateY(-5px);
 }
 
-form input {
+#cform input {
     width: 80%;
 }
 
-form textarea {
+#cform textarea {
     width: 80%;
 }
 
