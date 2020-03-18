@@ -28,7 +28,7 @@ p ,h1 ,h2 {
 }
 
 .gold {
-    background-color: gold;
+    background-color:gold
 }
 
 .wine {
@@ -40,7 +40,11 @@ p ,h1 ,h2 {
 }
 
 .white {
-    color: white;
+    background-color: white;
+}
+
+.black {
+    background-color: #101820FF;
 }
 
 
@@ -269,14 +273,19 @@ p ,h1 ,h2 {
     height: 100vh;
     overflow: hidden;
 }
-
-#keyboard {
-    overflow: hidden;
+#contactpgleft{
+    background-image: url(images/polygoncatwhite2.png);
+    background-size: cover;
+    background-position-x: 200px;
+    background-repeat: no-repeat;
 }
 
-#keyboard img{
-    height: 100%;
+#contactpgleft,#contactpgright {
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.2),
+    -5px -5px 10px rgba(0,0,0, 0.2)
+    ;
 }
+
 
 #header1 {
     font-size: 20px;
