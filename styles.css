@@ -189,7 +189,21 @@ p ,h1 ,h2 {
 }
 
 /* adopt pg */
+#adopthero{
+    height: 91vh;
+    
+}
 
+#adopthero p {
+    color: white;
+}
+
+#adopthero .panelright {
+    background-image: url(images/spcalogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* adoption cards */
 .nmcard {
@@ -281,7 +295,7 @@ p ,h1 ,h2 {
     background-repeat: no-repeat;
 }
 
-#contactpgleft,#contactpgright {
+.panelleft,.panelright {
     box-shadow: 5px 5px 10px rgba(0,0,0, 0.2),
     -5px -5px 10px rgba(0,0,0, 0.2)
     ;
