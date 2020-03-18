@@ -31,10 +31,10 @@
               <a class="nav-link" href="#">Shop</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="stories.html">Stories</a>
+              <a class="nav-link" href="#stories">Stories</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="#contactus">Contact Us</a>
             </li>
         </div>
       </nav>
@@ -47,7 +47,7 @@
             </div>
             <div class="col-md-6 d-none d-md-block gold" id="herotitle">
               <h1>SPCA</h1>
-              <h2>Society for the Prevention of Cruelty to Animals</h2>
+              <h2>Friends For Life</h2>
               <p>SPCA provides animal rescue, shelter, adoption, 
                 and educational programmes for the community.
               </p>
@@ -135,8 +135,66 @@
               </div>
             </div>
           </div>
-          
-          
+
+
+
+          <!-- stories -->
+          <div class="row p-0 m-3 justify-content-center align-items-center" id="stories">
+            <div class="storytile">
+                <h1>Travelling With Zeus</h1>
+                <img src="images/story1.jpg" alt="traveldog">
+            </div>
+            <div class="storytile">
+                <h1>How I Met My Husband</h1>
+                <img src="images/story2.jpg" alt="couple">
+            </div>
+            <div class="storytile">
+                <h1>Survivors</h1>
+                <img src="images/story3.jpg" alt="girlwithcat">
+            </div>
+            </div>
+
+
+
+          <!-- contact us -->
+          <div class="row p-0 m-0 justify-content-center" id="contactus">
+            <div class="col-12 col-lg-6 m-0 p-0 d-none d-lg-block" id="keyboard">
+                <img src="images/keyboard.jpg">
+            </div>
+            <div class="col-12 col-lg-6 m-0">
+                <div class="row m-3 justify-content-center">
+                    <h1 id="header1">Have a burning question? 
+                        <br><br>Looking for volunteer opportunities?
+                        <br><br>Submit your request below and <br>we will get back to you in 3 
+                       working days. 
+                    </h1>
+                </div>
+                <div class="row m-3 justify-content-center">
+                    <form class="pl-5" id="cform">
+                        <input type="text" id="fname" placeholder="Enter your first name">
+                        <br><br>
+                        
+                        <input type="text" id="lname" placeholder="Enter your last name">
+                        <br><br>
+                         
+                        <input type="email" id="email" placeholder="Enter your email address">
+                        <br><br>
+                        
+                        <select name="enquiry" size="1">
+                            <option value="volunteer">Volunteer With Us</option>
+                            <option value="enquiry">General Enquiry</option>
+                            <option value="donate">Donation</option>
+                            <option value="complaint">Complaint</option>
+                        </select>
+                        <br><br>
+                        <textarea name="message" rows="3" placeholder="Enter your enquiry"></textarea>
+                        <br><br>
+                        <input type="submit" id="submitbtn" value="Submit">
+                    </form>
+                </div>    
+            </div>
+          </div>
+
         </section>
         <!-- footer -->
         <footer class="container-fluid d-flex p-0 pt-5 mt-5 text-align-center flex-wrap">
@@ -164,8 +222,6 @@
               <a href="index.html"><i class="fab fa-spotify"></i></a>
             </p>
           </div>
-          
-            
         </footer>
     </main>
     

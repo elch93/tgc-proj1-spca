@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body
 {
     width: 100%;
     overflow-x: hidden;
+    
 }
 
 p ,h1 ,h2 {
@@ -179,35 +184,6 @@ p ,h1 ,h2 {
 }
 
 /* adopt pg */
-/* 
-#heroimgcontainerad img{
-    height: auto;
-    width: 800px;
-}
-    
-#heroimgcontainerad h1 {
-    position: absolute;
-    bottom: 55%;
-    left:55%;
-    font-size: 80px;
-    font-weight: 800;
-    border-bottom: 15px solid gold;
-}
-
-#heroimgcontainerad{
-    height: 550px;
-    width: 50%;
-    overflow: hidden;
-}
-
-#welcometxtad {
-    position: absolute;
-    top: 55%;
-    left: 55%;
-    width: 450px;
-    text-align: justify;
-    font-size: 20px;
-} */
 
 
 /* adoption cards */
@@ -340,6 +316,10 @@ p ,h1 ,h2 {
 
 
 /* stories */
+#stories {
+    height: 100vh;
+}
+
 .storytile  {
     height: 80vh;
     width: 300px;
