@@ -183,12 +183,73 @@ p ,h1 ,h2 {
 }
 
 
-#spotlight {
-    text-align: center;
-    font-weight: 600;
-}
+
 
 /* adopt pg */
+
+@media(max-width:400px) {   
+
+    #adoptmain p {
+        font-size: 16px;
+        text-align: center;
+        padding:0 30px;
+    }
+
+    #adoptmain h1 {
+        font-size: 23px;
+        text-align: center;
+        padding:0 30px;
+    }
+
+    #catlogo, #doglogo {
+        /* border: 1px white solid; */
+        height: 150px;
+        width: 150px;
+        
+    }
+}
+
+#catlogo, #doglogo {
+    /* border: 1px white solid; */
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes floating {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+        border-bottom: 10px rgba(255,255,255, 0.2) solid;
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#catlogo img{
+    height: 100px;
+    width: 100px;
+}
+
+#doglogo img{
+    height: 100px;
+    width: 250px;
+}
+
+
+
 #adopthero{
     height: 91vh;
     
@@ -285,7 +346,7 @@ p ,h1 ,h2 {
 
 /* heroimg & form */
 #contactus{
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 #contactpgleft{
