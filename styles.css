@@ -130,7 +130,7 @@ p ,h1 ,h2 {
 
 #adoptbtn {
     background-color: gold;
-    border: 1px solid rgba(255,255,255);
+    border: none;
     border-radius: 20px;
     transition: linear 0.5s;
     position: relative;
@@ -142,8 +142,7 @@ p ,h1 ,h2 {
 #adoptbtn:hover {
     top:5%;
     border: 1px solid rgba(255,255,255,0.4);
-    box-shadow: 0px 20px  orange,
-  -5px -5px 5px rgba(255,255,255,0.5);
+    box-shadow: 0px 20px  orange;
     transition: linear 0.5s;
 }
 
