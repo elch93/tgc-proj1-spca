@@ -431,8 +431,8 @@ p ,h1 ,h2 {
 
 .storytile img {
     position: relative;
-    right:20%;
-    bottom: 30%;
+    right:70px;
+    bottom: 200px;
     transition: 0.5s ease-in-out;
     opacity: 0.5;
 }
