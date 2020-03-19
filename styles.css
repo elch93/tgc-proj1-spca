@@ -155,7 +155,7 @@ p ,h1 ,h2 {
 
 /* welcome page mobile */
 
-#herotitlem {
+#herom {
     overflow: hidden;
     height: 100vh;
     background-image: url(images/friends.jpg);
@@ -165,18 +165,31 @@ p ,h1 ,h2 {
     text-align: center;
 }
 
-#herotitlem h1 {
+#herom button {
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: gold;
+    position: relative;
+    top:8%;
+}
+
+#herom button h1{
+    font-size: 20px;
+}
+
+#herom h1 {
     padding-top: 10px;
     font-size: 50px;
     font-weight: 800;
 }
 
-#herotitlem h2 {
+#herom h2 {
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-#herotitlem p {
+#herom p {
     font-weight: 500;
 }
 
@@ -199,23 +212,16 @@ p ,h1 ,h2 {
         padding:0 30px;
     }
 
-    #catlogo, #doglogo {
-        /* border: 1px white solid; */
-        height: 150px;
-        width: 150px;
-        
-    }
 }
 
 #catlogo, #doglogo {
-    /* border: 1px white solid; */
     height: 200px;
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    animation-name: floating;
+    animation-name: bobbing;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
@@ -225,7 +231,7 @@ p ,h1 ,h2 {
     animation-delay: 1s;
 }
 
-@keyframes floating {
+@keyframes bobbing {
     0%{
         transform: translateY(0px);
     }
@@ -451,6 +457,8 @@ p ,h1 ,h2 {
     padding-left: 30px;
     z-index: 2;
 }
+
+
 
 /* footer */
 
