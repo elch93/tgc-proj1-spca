@@ -177,34 +177,39 @@ p ,h1 ,h2 {
 #midm {
     overflow: hidden;
     height: 100vh;
+    background-image: url(images/adventuresm.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     background-color: #101820FF;
 }
 
-#midm h1, #midm p {
-    color:white;
-}
 
 #herom button,#midm button {
     border: none;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: gold;
-    position: relative;
-    top:30px;
-    padding: 15px 15px;
+    position: absolute;
+    top:78%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    width: 250px;
    
 }
 
 #herom button h1, #midm button h1{
     font-size: 30px;
     color:black;
+    margin:0;
 }
 
 #herom h1, #midm h1 {
-    padding-top: 10px;
     font-size: 30px;
     font-weight: 800;
+    margin:200px 0 0 0;
 }
 
 #herom h2 {
@@ -216,6 +221,10 @@ p ,h1 ,h2 {
     font-weight: 500;
     max-width: 500px;
     margin: 10px auto;
+}
+
+#midm h1,#midm p {
+    color: white;
 }
 
 /* midsection */
@@ -231,20 +240,6 @@ p ,h1 ,h2 {
     
 }
 
-/* #midsection button {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-    background-color: gold;
-    border: none;
-    border-radius: 20px;
-    transition: linear 0.5s;
-    position: relative;
-    top:20px;
-    left:50%;
-    transform: translateX(-50%);
-    padding: 20px;
-} */
 
 
 /* adopt pg */
@@ -471,7 +466,7 @@ p ,h1 ,h2 {
 
 .storytile img {
     position: relative;
-    right:70px;
+    right:135px;
     bottom: 200px;
     transition: 0.5s ease-in-out;
     opacity: 0.5;
