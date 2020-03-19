@@ -215,9 +215,9 @@ p ,h1 ,h2 {
 
 }
 
-#catlogo, #doglogo {
-    height: 200px;
-    width: 200px;
+#catlogo, #doglogo, #heartlogo {
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +228,7 @@ p ,h1 ,h2 {
     animation-fill-mode: both;
 }
 
-#doglogo {
+#heartlogo {
     animation-delay: 1s;
 }
 
@@ -251,16 +251,20 @@ p ,h1 ,h2 {
 
 
 
-#catlogo img{
-    height: 100px;
-    width: 100px;
+#catlogo img {
+    height: 50px;
+    width: 50px;
 }
 
 #doglogo img{
-    height: 100px;
-    width: 250px;
+    height: 50px;
+    width: 125px;
 }
 
+#heartlogo img {
+    width: 70px;
+    height: 50px;
+}
 
 
 /* adoption cards */
