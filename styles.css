@@ -97,7 +97,7 @@ p ,h1 ,h2 {
 }
 
 #herotitle h1 {
-    font-size: 12vh;
+    font-size: 70px;
     font-weight: 800;
     text-align: center;
     margin: 50px 0 0 20px;
@@ -105,7 +105,7 @@ p ,h1 ,h2 {
 }
 
 #herotitle h2 {
-    font-size: 3vh;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
@@ -114,18 +114,24 @@ p ,h1 ,h2 {
 }
 
 #herotitle p {
-    font-size: 3vh;
+    font-size: 16px;
     text-align: center;
     margin-top: 20px;
     padding: 0px 40px;
     color: white;
 }
 
+@media (max-width:1020px) {
+    #herotitle p {
+        font-size: 16px;
+    }
+}
+
 #adoptbtn h1{
     font-weight: 800;
     padding: 20px;
     margin:0;
-    font-size: 4vh;
+    font-size: 20px;
     text-shadow: none;
     color:black;
 }
@@ -136,13 +142,13 @@ p ,h1 ,h2 {
     border-radius: 20px;
     transition: linear 0.5s;
     position: relative;
-    top:6vh;
+    top:20px;
     left:50%;
     transform: translateX(-50%);
 }
 
 #adoptbtn:hover {
-    top:4vh;
+    top:10px;
     border: 1px solid rgba(255,255,255,0.4);
     box-shadow: 0px 10px 0 1px orange;
     transition: linear 0.5s;
@@ -173,7 +179,7 @@ p ,h1 ,h2 {
     border-radius: 20px;
     background-color: gold;
     position: relative;
-    top:4vh;
+    top:30px;
     padding: 15px 15px;
 }
 
@@ -183,17 +189,19 @@ p ,h1 ,h2 {
 
 #herom h1 {
     padding-top: 10px;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 #herom h2 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 #herom p {
     font-weight: 500;
+    max-width: 500px;
+    margin: 10px auto;
 }
 
 
@@ -205,14 +213,13 @@ p ,h1 ,h2 {
 
     #adoptmain p {
         font-size: 16px;
-        text-align: center;
-        padding:0 30px;
+        text-align: justify;
+
     }
 
     #adoptmain h1 {
-        font-size: 23px;
-        text-align: center;
-        padding:0 30px;
+        font-size: 20px;
+        text-align: justify;
     }
 
 }
@@ -365,7 +372,7 @@ p ,h1 ,h2 {
 
 
 #header1 {
-    font-size: 3vh;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -374,10 +381,10 @@ p ,h1 ,h2 {
     border-radius: 15px;
     margin: 10px 0px;
     padding: 20px 0px;
-    width: 400px;
-    height: 90%;
+    width: 350px;
+    height: auto;
     transition: 0.5s ease-in-out; 
-    font-size: 2vh;
+    font-size: 16px;
 }
 
 #cform:hover {
@@ -555,16 +562,6 @@ footer i:hover {
 
 
 @media (max-width: 767.5px) {
-    #adoptbtn {
-        max-width: 250px;
-        height: 90%;
-    }
-
-    #adoptbtn h1{
-        font-weight: 800;
-        font-size: 25px;
-    }
-
 
     #navcontainer{
         width: 100%;
