@@ -157,7 +157,7 @@ p ,h1 ,h2 {
 
 #herotitlem {
     overflow: hidden;
-    height: 90vh;
+    height: 100vh;
     background-image: url(images/friends.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -255,22 +255,6 @@ p ,h1 ,h2 {
 }
 
 
-
-#adopthero{
-    height: 91vh;
-    
-}
-
-#adopthero p {
-    color: white;
-}
-
-#adopthero .panelright {
-    background-image: url(images/spcalogo.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 /* adoption cards */
 .nmcard {
@@ -471,8 +455,7 @@ p ,h1 ,h2 {
 /* footer */
 
 footer {
-    background-color: black;
-    border-top: 3px solid black;
+    background-color: #101820FF;
 }
 
 footer a {
@@ -521,7 +504,7 @@ footer button:hover {
 
 footer i, footer p, footer h1 {
     color: white;
-    font-size: 25px;;
+    font-size: 20px;;
 }
 
 footer i {
