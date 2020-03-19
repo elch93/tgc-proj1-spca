@@ -84,9 +84,11 @@ p ,h1 ,h2 {
 
 
 /* welcome pg*/
+#hcontainer {
+    height: 88vh;
+}
+
 .heroimgcontainer {
-    height: 700px;
-    
     background-image: url(images/friends.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -95,7 +97,7 @@ p ,h1 ,h2 {
 }
 
 #herotitle h1 {
-    font-size: 140px;
+    font-size: 12vh;
     font-weight: 800;
     text-align: center;
     margin: 50px 0 0 20px;
@@ -103,7 +105,7 @@ p ,h1 ,h2 {
 }
 
 #herotitle h2 {
-    font-size: 25px;
+    font-size: 3vh;
     font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
@@ -112,7 +114,7 @@ p ,h1 ,h2 {
 }
 
 #herotitle p {
-    font-size: 20px;
+    font-size: 3vh;
     text-align: center;
     margin-top: 20px;
     padding: 0px 40px;
@@ -123,7 +125,7 @@ p ,h1 ,h2 {
     font-weight: 800;
     padding: 20px;
     margin:0;
-    font-size: 40px;
+    font-size: 3vh;
     text-shadow: none;
     color:black;
 }
@@ -134,15 +136,15 @@ p ,h1 ,h2 {
     border-radius: 20px;
     transition: linear 0.5s;
     position: relative;
-    top:8%;
+    top:6vh;
     left:50%;
     transform: translateX(-50%);
 }
 
 #adoptbtn:hover {
-    top:5%;
+    top:4vh;
     border: 1px solid rgba(255,255,255,0.4);
-    box-shadow: 0px 20px  orange;
+    box-shadow: 0px 10px  orange;
     transition: linear 0.5s;
 }
 
@@ -347,7 +349,7 @@ p ,h1 ,h2 {
 
 /* heroimg & form */
 #contactus{
-    height: 100%;
+    height: 100vh;
 }
 #contactpgleft{
     background-image: url(images/polygoncatwhite2.png);
@@ -363,17 +365,19 @@ p ,h1 ,h2 {
 
 
 #header1 {
-    font-size: 20px;
+    font-size: 3vh;
     text-align: center;
 }
 
 #cform {
     background-color: gold;
     border-radius: 15px;
-    margin: 30px 0px;
+    margin: 10px 0px;
     padding: 20px 0px;
     width: 400px;
+    height: 90%;
     transition: 0.5s ease-in-out; 
+    font-size: 2vh;
 }
 
 #cform:hover {
@@ -441,8 +445,6 @@ p ,h1 ,h2 {
 
 }
 
-
-
 .storytile h1 {
     position: relative;
     top:-500px;
@@ -452,8 +454,6 @@ p ,h1 ,h2 {
     padding-left: 30px;
     
 }
-
-
 
 /* footer */
 #hotline {
@@ -480,7 +480,6 @@ footer form {
     height: auto;
     margin-bottom: 50px;
     padding:0;
-    
 }
 
 footer input {
