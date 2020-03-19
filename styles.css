@@ -353,7 +353,6 @@ p ,h1 ,h2 {
 /* heroimg & form */
 #contactus{
     height: 100%;
-    overflow: hidden;
 }
 #contactpgleft{
     background-image: url(images/polygoncatwhite2.png);
@@ -364,8 +363,7 @@ p ,h1 ,h2 {
 
 .panelleft,.panelright {
     box-shadow: 5px 5px 10px rgba(0,0,0, 0.2),
-    -5px -5px 10px rgba(0,0,0, 0.2)
-    ;
+    -5px -5px 10px rgba(0,0,0, 0.2);
 }
 
 
@@ -411,6 +409,7 @@ p ,h1 ,h2 {
 
 
 /* stories */
+
 #stories a{
     text-decoration: none;
 }
@@ -472,22 +471,21 @@ p ,h1 ,h2 {
 /* footer */
 
 footer {
-    background-color: gold;
+    background-color: black;
+    border-top: 3px solid black;
 }
 
 footer a {
     text-decoration: none;
-    color:black;
+    color:gold;
 }
 
 footer a:hover {
     text-decoration: none;
-    color:black;
+    color:gold;
 }
 
 footer form {
-    background-color: gold;
-    box-shadow: 10px 10px gold;
     border-radius: 15px;
     width: 380px;
     height: 10px;
@@ -521,9 +519,9 @@ footer button:hover {
     transform: translateY(-10px);
 }
 
-footer i, footer p {
-    color: color;
-    font-size: 30px;;
+footer i, footer p, footer h1 {
+    color: white;
+    font-size: 25px;;
 }
 
 footer i {
@@ -533,11 +531,25 @@ footer i {
 }
 
 footer i:hover {
-    box-shadow: 0px 15px 0 2px orange;
-    transition: ease-in-out 0.5s;
-    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
 /* for small devices */
