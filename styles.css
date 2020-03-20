@@ -511,12 +511,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color:gold;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color:gold;
 }
 
 footer form {
@@ -563,6 +557,7 @@ footer i {
 }
 
 footer i:hover {
+    color:gold;
     animation-name: bounce;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
