@@ -482,13 +482,18 @@ p ,h1 ,h2 {
         
     }
 
+    .storytile:hover h1 {
+        width: 500px;
+        transition: 0.5s ease-in-out;
+    }
+    
 }
 
 .storytile h1 {
     position: relative;
-    top:-500px;
+    top:-550px;
     color: white;
-    width: 280px; /*fix image moving up*/
+    width: 300px; /*fix image moving up*/
     font-weight: 800;
     padding-left: 30px;
     
@@ -588,6 +593,10 @@ footer i:hover {
         margin: -15px auto 0 auto;
         padding:10px auto;
         font-size: 22px;
+    }
+
+    .storytile {
+        margin: 10px 0;
     }
    
 }
