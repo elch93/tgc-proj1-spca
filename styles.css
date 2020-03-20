@@ -172,7 +172,7 @@ p ,h1 ,h2 {
 
 #herom, #midm {
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     
 }
@@ -183,7 +183,7 @@ p ,h1 ,h2 {
 
 
 #herom button,#midm button {
-    margin: 40px 0 0 0;
+    margin: 40px 0;
     border: none;
     font-size: 20px;
     border-radius: 10px;
