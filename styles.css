@@ -162,39 +162,34 @@ p ,h1 ,h2 {
     
 }
 
+
+
+
 /* welcome page mobile */
+#herom img, #midm img{
+    width: 100%;
+}
 
 #herom {
     overflow: hidden;
     height: 100vh;
-    background-image: url(images/friends.jpg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
 }
 
 #midm {
     overflow: hidden;
     height: 100vh;
-    background-image: url(images/adventuresm.jpg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     background-color: #101820FF;
 }
 
 
 #herom button,#midm button {
+    margin: 40px 0 0 0;
     border: none;
     font-size: 20px;
     border-radius: 10px;
     background-color: gold;
-    position: absolute;
-    top:78%;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 10px 15px;
     width: 250px;
    
@@ -209,7 +204,7 @@ p ,h1 ,h2 {
 #herom h1, #midm h1 {
     font-size: 30px;
     font-weight: 800;
-    margin:200px 0 0 0;
+    margin:20px 0 0 0;
 }
 
 #herom h2 {
@@ -226,6 +221,8 @@ p ,h1 ,h2 {
 #midm h1,#midm p {
     color: white;
 }
+
+
 
 /* midsection */
 #midsection {
