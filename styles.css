@@ -170,16 +170,14 @@ p ,h1 ,h2 {
     width: 100%;
 }
 
-#herom {
+#herom, #midm {
     overflow: hidden;
     height: 100vh;
     text-align: center;
+    
 }
 
 #midm {
-    overflow: hidden;
-    height: 100vh;
-    text-align: center;
     background-color: #101820FF;
 }
 
@@ -210,12 +208,14 @@ p ,h1 ,h2 {
 #herom h2 {
     font-size: 20px;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 #herom p, #midm p {
     font-weight: 500;
     max-width: 500px;
     margin: 10px auto;
+    padding: 0 20px;
 }
 
 #midm h1,#midm p {
