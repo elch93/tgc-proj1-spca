@@ -17,14 +17,7 @@ p ,h1 ,h2 {
     border: 5px solid gold;
 }
 
-.hundred {
-    height: 100vh;
-    overflow: hidden;
-}
 
-.fifty {
-    height: 70vh;
-}
 
 .gold {
     background-color:gold
@@ -90,7 +83,8 @@ p ,h1 ,h2 {
 
 /* welcome pg*/
 #hcontainer {
-    height: 90vh;
+    max-height: 800px;
+    min-height: 760px;
 }
 
 #hcontainer .heroimgcontainer {
@@ -232,7 +226,8 @@ p ,h1 ,h2 {
 
 /* midsection */
 #midsection {
-    height: 100vh;
+    max-height: 800px;
+    min-height: 760px;
 }
 
 #midsection .heroimgcontainer {
