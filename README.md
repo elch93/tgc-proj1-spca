@@ -28,7 +28,7 @@ Small animations are added throughout the website to make the pages look lively,
 - As a donor, I want to be able to contact SPCA to know how I can make donations.
 - As a visitor, I want to know the opening hours and address of SPCA's phyiscal location so that I can head over there.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
 
 ## Features
 
@@ -72,6 +72,8 @@ With limited time and scope(HTML + CSS) to work on this project, the website wil
 
 - For SPCA itself: as mentioned earlier, potential educational podcasts can be released on Spotify and Youtube to spread awareness about animals and the organization.
 
+
+
 ## Technologies Used
 
 - HTML5
@@ -83,6 +85,7 @@ With limited time and scope(HTML + CSS) to work on this project, the website wil
 - Git(for version control)
 - Github
 - Google Chrome, Firefox(for preview and debugging)
+
 
 
 ## Testing
@@ -137,14 +140,8 @@ A lot of bugs were discovered during the process of making this website but it w
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I started out by creating a repository on GitHub with Code Institute's template, and clone it to a folder in my laptop using command prompt. I then code using Visual Studio Code and mostly Firefox for the preview of the website. Commits were pushed to GitHub. The master branch was deployed as a website by GitHub.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
@@ -154,7 +151,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from [pexels.com](https://www.pexels.com/).
-- The dog, cat and heart shapes were created using Illustrator.
+- The dog, cat and heart shapes in the Adopt page were created using Illustrator.
 - The custom SPCA logo on the right side of the navigation bar was made using [Hatchful](https://hatchful.shopify.com/).
 
 ### Acknowledgements
