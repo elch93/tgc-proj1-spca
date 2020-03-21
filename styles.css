@@ -83,8 +83,8 @@ p ,h1 ,h2 {
 
 /* welcome pg*/
 #hcontainer {
+    height: 91vh;
     max-height: 800px;
-    min-height: 760px;
 }
 
 #hcontainer .heroimgcontainer {
@@ -173,7 +173,6 @@ p ,h1 ,h2 {
     overflow: hidden;
     height: 100%;
     text-align: center;
-    
 }
 
 #midm {
@@ -226,8 +225,8 @@ p ,h1 ,h2 {
 
 /* midsection */
 #midsection {
+    height: 100vh;
     max-height: 800px;
-    min-height: 760px;
 }
 
 #midsection .heroimgcontainer {
