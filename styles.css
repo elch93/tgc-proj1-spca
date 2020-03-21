@@ -13,22 +13,8 @@ p ,h1 ,h2 {
     color: black;
 }
 
-.gbor {
-    border: 5px solid gold;
-}
-
-
-
 .gold {
     background-color:gold
-}
-
-.wine {
-    background-color: orangered;
-}
-
-.blue {
-    background-color: blue;
 }
 
 .white {
@@ -81,7 +67,7 @@ p ,h1 ,h2 {
 
 
 
-/* welcome pg*/
+/* welcome page */
 #hcontainer {
     height: 91vh;
     max-height: 800px;
@@ -239,7 +225,7 @@ p ,h1 ,h2 {
 
 
 
-/* adopt pg */
+/* adopt page */
 #options {
     width: 100%;
     padding:20px;
@@ -266,8 +252,6 @@ p ,h1 ,h2 {
     text-align: justify;
     font-weight: 800;
 }
-
-
 
 #catlogo, #doglogo, #heartlogo {
     height: 100px;
@@ -302,8 +286,6 @@ p ,h1 ,h2 {
         transform: translateY(0px);
     }
 }
-
-
 
 #catlogo img {
     height: 50px;
@@ -422,7 +404,7 @@ p ,h1 ,h2 {
     transform: translateY(-10px);
 }
 
-/* heroimg & form */
+/* contact form */
 #contactus{
     min-height: 700px;
     height: 100%;
@@ -493,8 +475,7 @@ p ,h1 ,h2 {
 }
 
 
-/* stories */
-
+/* stories page */
 #stories a{
     text-decoration: none;
 }
@@ -641,12 +622,3 @@ footer i:hover {
    
 }
 
-
-@media (max-width: 767.5px) {
-
-    #navcontainer{
-        width: 100%;
-    }
-
-
-} 
