@@ -69,7 +69,7 @@ p ,h1 ,h2 {
 
 /* welcome page */
 #hcontainer {
-    height: 91vh;
+    min-height: 662px;
     max-height: 800px;
 }
 
@@ -211,7 +211,7 @@ p ,h1 ,h2 {
 
 /* midsection */
 #midsection {
-    height: 100vh;
+    min-height: 728px;
     max-height: 800px;
 }
 
