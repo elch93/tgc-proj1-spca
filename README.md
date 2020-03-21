@@ -13,10 +13,9 @@ In order to cut down on the quantity of content that users have to face, I desir
 3. Then, users see the call to action button where users can read stories about the affection between pets and owners, which further promotes SPCA's motto and encourage adoption of animals.
 4. Lastly, users will be directed to the image of a dog exploring the forest with its owners, which illustrates the potential bonds between humans and animals. 
 
-
 ### Color Scheme
 
-The colors I have chosen for the website are white, black and gold. White and black were chosen for a minimalist website to make the website look modern, and to appeal to the younger tech-savvy audience. Gold/yellow was chosen for its portrayal of positivity, loyalty, and happiness. I wanted to associate "happiness" with "animals", in order to remind users that animals are lovable creatures.
+The colors I have chosen for the website are white, black and gold/yellow. White and black were chosen for a minimalist website to make the website look modern, and to appeal to the younger tech-savvy audience. Gold/yellow was chosen for its association with positivity, loyalty, and happiness. I wanted to associate "happiness" with "animals", in order to remind users that animals are lovable creatures.
 
 ### Animations
 
@@ -25,7 +24,6 @@ Small animations are added throughout the website to make the pages look lively,
 ### User Stories
 
 - As a potential adopter, I want to look at the list of animals up for adoption so that I can make a decision to head down personally and adopt it.
-- As a potential adopter/volunteer, I want to read some annecdotes about the relationships between humans and pets so that I can be motivated to join SPCA's cause.
 - As a volunteer, I want to be able to contact SPCA in order to apply for voluntary work.
 - As a donor, I want to be able to contact SPCA to know how I can make donations.
 - As a visitor, I want to know the opening hours and address of SPCA's phyiscal location so that I can head over there.
@@ -34,7 +32,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-Before I start on the features of my website project, to avoid confusion, I will like to point out some of the things that won't work and the reasons why.
+Before I start on the main features of my website project, I will like to point out some of the things that won't work on this website.
 
 #### The limited capabilities of HTML & CSS
 
@@ -42,8 +40,9 @@ Before I start on the features of my website project, to avoid confusion, I will
 2. The search/filtering features in the adoption page will require javascript.
 
 #### Potential Content
+
 1. Currently, the SPCA (Singapore) does not feature a Spotify page. Thus, clicking on the Spotify icon will not bring the user to a Spotify page. I imagined this to be a potential feature for SPCA to be podcasts sharing tips about pet care or personal stories with other pet owners/lovers.
-2. Clicking the tiles on the stories page will not give the user contents of stories to read. Similarly, this is a potential feature that can promote affection towards animals.
+2. Clicking the tiles on the stories page will not direct the user to a web page that contains a story for reading. Instead, I have placed dummy links which will redirect the user to a story post on SPCA's Instagram.
 
 ### Existing Features
 
@@ -53,7 +52,7 @@ The slightly customised Bootstrap navigation bar has links that takes the user t
 
 #### Hover Animations: 
 
-I have applied transition hover effects such that buttons and the contact form appear to be 3D. Call to action buttons appear to be pressed inwards when the user click on it (click and hold to see the effect more clearly). Icons/links at the footer will also bounce and get highlighted when hovered over. Cards displaying information about the animals will also scale up in size upon hovering. The story tiles will expand in width and increase in opacity to reveal more of the displayed image when hovered. Some of the hover effects are disabled in mobile view as they wont work on touchscreen-reliant devices.
+I have applied transition hover effects such that buttons and the contact form appear to be 3D. Call to action buttons("Adopt A Pet" & "Read Tales") will appear to be pressed inwards when the user click on it (click and hold to see the effect more clearly). Icons/links at the footer will also bounce and get highlighted when hovered over. Cards displaying information about the animals will also scale up in size upon hovering. The story tiles will expand in width and increase in opacity to reveal more of the displayed image when hovered. Some of the hover effects are disabled in mobile view as they wont work on touchscreen-reliant devices.
 
 #### Mobile Friendly: 
 
@@ -63,8 +62,8 @@ To my best knowledge and efforts, I believe that I have ironed out enough bugs s
 
 With limited time and scope(HTML + CSS) to work on this project, the website will mainly focus on pet adoption, community stories and a way to contact the organisation. The footer features the address, contact no., opening hours, newsletter subscription and social media links(Facebook, Instagram, Youtube, Twitter & Spotify). The adoption page features the option to search by type(see all/dogs/cats) and a button to direct the user to the next page. The story tiles are intended to direct users to a new tab where the stories will be available for the user to read.
 
-
 ### Features Left to Implement
+
 - Shopping page: a page for visitors to purchase merchandises that will contribute to SPCA's funds. The page can include functions such as search, add to cart, make payment, track orders and filtering. 
 
 - Forums: a place for pet lovers and owners to gather and share their views and experiences. The Pet Care and Lost & Found sections of the current SPCA page can be combined and be placed in the Forums.
@@ -74,37 +73,67 @@ With limited time and scope(HTML + CSS) to work on this project, the website wil
 - For SPCA itself: as mentioned earlier, potential educational podcasts can be released on Spotify and Youtube to spread awareness about animals and the organization.
 
 ## Technologies Used
+
 - HTML5
 - CSS3
 - Bootstrap
-- Google Fonts
-- Font Awesome
-- Visual Studio Code
-- Git
+- Google Fonts(Heebo)
+- Font Awesome(social media icons, map & phone icons)
+- Visual Studio Code(IDE for coding)
+- Git(for version control)
 - Github
-- Google Chrome
-- Firefox
+- Google Chrome, Firefox(for preview and debugging)
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Website Functions
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Links
+Clicking on the logo on the top right of the page will lead you to: [https://elch93.github.io/tgc-proj1-spca/index.html](https://elch93.github.io/tgc-proj1-spca/index.html)
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Clicking on the Adopt link on the navigation bar and "Adopt A Pet" button redirects to: [https://elch93.github.io/tgc-proj1-spca/adoption.html](https://elch93.github.io/tgc-proj1-spca/adoption.html)
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Clicking on the Stories link on the navigation bar and "Read Tales" button redirects to:[https://elch93.github.io/tgc-proj1-spca/stories.html](https://elch93.github.io/tgc-proj1-spca/stories.html)
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Clicking on the Contact Us link on the navigation bar will redirect to: [https://elch93.github.io/tgc-proj1-spca/index.html#contactus](https://elch93.github.io/tgc-proj1-spca/index.html#contactus)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Clicking on the Facebook icon in the footer will open up in a new tab: [https://www.facebook.com/spcasingapore/](https://www.facebook.com/spcasingapore/)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Clicking on the Instagram icon in the footer will open up in a new tab: [https://www.instagram.com/spcasingapore/](https://www.instagram.com/spcasingapore/)
+
+Clicking on the Twitter icon in the footer will open up in a new tab: [https://twitter.com/spca_sg?lang=en](https://twitter.com/spca_sg?lang=en)
+
+Clicking on the YouTube icon in the footer will open up in a new tab: [https://www.youtube.com/channel/UCVupAEb6uU3fFjBdnp6Tobw](https://www.youtube.com/channel/UCVupAEb6uU3fFjBdnp6Tobw)
+
+Clicking on the Spotify icon in the footer will redirect to the main page: [https://elch93.github.io/tgc-proj1-spca/index.html](https://elch93.github.io/tgc-proj1-spca/index.html)
+
+Clicking on any of the story tiles in the Stories page will open up a dummy link in a new tab: [https://www.instagram.com/p/B8yBY3bnZyn/?utm_source=ig_web_copy_link](https://www.instagram.com/p/B8yBY3bnZyn/?utm_source=ig_web_copy_link)
+
+#### Hover Effects/Animations
+Links on the navigation bar and footer will float up slightly and get highlighted when hovered.
+
+Call to action buttons will pop up and also depress when clicked (click & hold longer to see the effect more clearly).
+
+A shadow will appear behind the form in the contact us section.
+
+The subscribe(in Home) and next page(in Adopt) buttons behave similarly to the call to action buttons without the depress effect.
+
+The dog, cat and heart shaped icons will appear to be bobbing up and down in the Adopt page.
+
+The search by type function and the next page button will not work in the Adopt page for reasons specified above.
+
+The cards with descriptions of animals will grow bigger in size.
+
+Similarly, the story tiles will grow in width when hovered.
+
+### Mobile Responsiveness
+
+The website is suitable for small(smartphones) to large sized devices(laptops/computers).
+
+### Bugs
+
+A lot of bugs were discovered during the process of making this website but it was a great learning experience and from some mistakes, I had observed and acquired some css tricks. The most challenging aspect I find is to utilise vh, % properly. Being too reliant on these units may cause sizing problems as screen sizes change. To manage that, I tried using minimum or maximum height to limit the size change.
 
 ## Deployment
 
@@ -124,7 +153,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Much of the content on the main page and adoption page were referenced and paraphrased from SPCA's website.
 
 ### Media
-- The photos used in this site were obtained from [pexels.com](www.pexels.com).
+- The photos used in this site were obtained from [pexels.com](https://www.pexels.com/).
 - The dog, cat and heart shapes were created using Illustrator.
 - The custom SPCA logo on the right side of the navigation bar was made using [Hatchful](https://hatchful.shopify.com/).
 
