@@ -432,6 +432,7 @@ p ,h1 ,h2 {
 #contactus{
     height: 100vh;
 }
+
 #contactpgleft{
     background-image: url(images/mail.jpg);
     background-size: cover;
@@ -444,16 +445,15 @@ p ,h1 ,h2 {
     -5px -5px 10px rgba(0,0,0, 0.2);
 }
 
-
-#header1 {
-    font-size: 16px;
+#contactus p {
     text-align: center;
+    font-size: 16px;
 }
 
 #cform {
     background-color: gold;
     border-radius: 15px;
-    margin: 10px 0px;
+    margin: 0px 0px;
     padding: 20px 0px;
     width: 350px;
     height: auto;
@@ -472,10 +472,6 @@ p ,h1 ,h2 {
     margin-bottom: 15px;
 }
 
-#cform p{
-    font-weight: 500;
-    margin-left: 5px;
-}
 
 #cform input {
     width: 90%;
@@ -600,7 +596,7 @@ footer p, footer h1 {
 
 footer i {
     transition: ease-in-out 0.5s;
-    padding: 0px 10px;
+    padding: 10px 15px;
     color: white;
     font-size: 25px;
 }
