@@ -546,14 +546,16 @@ footer button:hover {
     transform: translateY(-10px);
 }
 
-footer i, footer p, footer h1 {
+footer p, footer h1 {
     color: white;
     font-size: 20px;;
 }
 
 footer i {
     transition: ease-in-out 0.5s;
-    padding: 20px;
+    padding: 0px 10px;
+    color: white;
+    font-size: 25px;
 }
 
 footer i:hover {
