@@ -56,6 +56,11 @@ p ,h1 ,h2 {
     z-index: 2;
 }
 
+#navcontainer img{
+    width: 30px;
+    margin: 0px 10px 0px 0px;
+}
+
 #navcontainer a {
     font-family: 'Heebo', sans-serif;
     font-weight: 800;
@@ -459,7 +464,17 @@ p ,h1 ,h2 {
     box-shadow: 10px 10px orange;
     transition: 0.5s ease-in-out;
     transform: translateY(-5px);
-} 
+}
+
+#cform img {
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+#cform p{
+    font-weight: 500;
+    margin-left: 5px;
+}
 
 #cform input {
     width: 90%;
