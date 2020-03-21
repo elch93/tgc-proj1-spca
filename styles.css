@@ -431,6 +431,7 @@ p ,h1 ,h2 {
 /* heroimg & form */
 #contactus{
     min-height: 700px;
+    height: 100%;
 }
 
 
