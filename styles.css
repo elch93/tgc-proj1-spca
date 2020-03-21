@@ -241,21 +241,33 @@ p ,h1 ,h2 {
 
 
 /* adopt pg */
+#options {
+    width: 100%;
+    padding:20px;
+}
 
-@media(max-width:400px) {   
+#options p {
+    font-size: 20px;
+}
 
-    #adoptmain p {
+#options label{
+    font-size: 18px;
+    font-family:'Heebo', sans-serif;
+    margin: 0px 20px 0px 5px;
+}
+
+#adoptmain p {
         font-size: 16px;
         text-align: justify;
+}
 
-    }
-
-    #adoptmain h1 {
+#adoptmain h1 {
         font-size: 20px;
         text-align: justify;
-    }
-
+        font-weight: 800;
 }
+
+
 
 #catlogo, #doglogo, #heartlogo {
     height: 100px;
@@ -385,6 +397,29 @@ p ,h1 ,h2 {
 .nmname h1 {
     font-weight: 800;
     
+}
+
+#nextpage {
+    width: 100%;
+    text-align: end;
+}
+
+#nextpage button{
+    background-color: gold;
+    border: none;
+    margin: 20px 50px;
+    padding:10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:'Heebo', sans-serif;
+    font-weight: 400;
+    transition: ease-in-out 0.5s;
+}
+
+#nextpage button:hover{
+    box-shadow: 0px 10px orange;
+    transition: ease-in-out 0.5s;
+    transform: translateY(-10px);
 }
 
 /* heroimg & form */
