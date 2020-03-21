@@ -430,8 +430,9 @@ p ,h1 ,h2 {
 
 /* heroimg & form */
 #contactus{
-    height: 100vh;
+    min-height: 700px;
 }
+
 
 #contactpgleft{
     background-image: url(images/mail.jpg);
