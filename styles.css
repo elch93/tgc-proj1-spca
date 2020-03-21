@@ -262,14 +262,15 @@ p ,h1 ,h2 {
 }
 
 #adoptmain p {
-        font-size: 16px;
-        text-align: justify;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify;
 }
 
 #adoptmain h1 {
-        font-size: 20px;
-        text-align: justify;
-        font-weight: 800;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 800;
 }
 
 
