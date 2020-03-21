@@ -441,6 +441,10 @@ p ,h1 ,h2 {
     -5px -5px 10px rgba(0,0,0, 0.2);
 }
 
+#contactus .panelright {
+    min-height: 100%;
+}
+
 #contactus p {
     text-align: center;
     font-size: 16px;
@@ -449,7 +453,6 @@ p ,h1 ,h2 {
 #cform {
     background-color: gold;
     border-radius: 15px;
-    margin: 0px 0px;
     padding: 20px 0px;
     width: 350px;
     height: auto;
