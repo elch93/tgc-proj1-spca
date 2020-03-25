@@ -1,6 +1,6 @@
 # SPCA - Potential Website Revamp
 
-Using only HTML,CSS and Bootstrap, my project for Code Institute's User Centric Frontend Development looks to revamp Singapore's SPCA(Society for the Prevention of Cruelty to Animals) website. SPCA is a society that mainly promotes affection between humans and animals. The current [website](http://www.spca.org.sg/) is mobile-unfriendly, cluttered with content and information, which might put off potential volunteers, adopters and partners. My website can be found [here](https://elch93.github.io/tgc-proj1-spca/)
+Using only HTML,CSS and Bootstrap, my project for Code Institute's User Centric Frontend Development looks to revamp Singapore's SPCA(Society for the Prevention of Cruelty to Animals) website. SPCA is a society that mainly promotes affection between humans and animals. The current [website](http://www.spca.org.sg/) is mobile-unfriendly, cluttered with content and information, which might put off potential volunteers, adopters and partners. My website can be found [here](https://elch93.github.io/tgc-proj1-spca/).
  
 ## UX
 
